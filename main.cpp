@@ -3,7 +3,10 @@
  * "STOS" Politechnikii Gdanskiej z roku 2024/2025. Do każdego rozwiązania należy
  * wprowadzić dane ręcznie.
  */
-#include "labolatorium_2/labolatorium_2.h"
+#include "labolatories/labolatory_2.h"
+#include "labolatories/labolatory_3.h"
+
+#include <iostream>
 
 #define StringifyImplementation(x)  #x
 #define Stringify(x)                StringifyImplementation(x)
@@ -23,17 +26,35 @@ static void CallFunction(T function, const char* functionName)
 
 int main()
 {
-    // Labolatorium 2.
-    // Call(Labolatorium2::HelloWorld);
-    // Call(Labolatorium2::Testowe);
-    // Call(Labolatorium2::SortowanieTrzechLiczb);
-    // Call(Labolatorium2::WzorHerona);
-    // Call(Labolatorium2::NierownoscTrojkata);
-    // Call(Labolatorium2::Maksimum4Liczb);
-    // Call(Labolatorium2::OdlegloscMiedzyPunktami3D);
-    // Call(Labolatorium2::PrzecinanieSieOkregow);
-    // Call(Labolatorium2::PoleTrojkataW3D);
-    Call(Labolatorium2::PierwiastkiRownaniaKwadratowego);
+    /*
+     * Labolatory 2
+     */
+    // Call(Labolatory2::HelloWorld);
+    // Call(Labolatory2::Testowe);
+    // Call(Labolatory2::SortowanieTrzechLiczb);
+    // Call(Labolatory2::WzorHerona);
+    // Call(Labolatory2::NierownoscTrojkata);
+    // Call(Labolatory2::Maksimum4Liczb);
+    // Call(Labolatory2::OdlegloscMiedzyPunktami3D);
+    // Call(Labolatory2::PrzecinanieSieOkregow);
+    // Call(Labolatory2::PoleTrojkataW3D);
+    // Call(Labolatory2::PierwiastkiRownaniaKwadratowego);
+
+    /*
+     * Labolatory 3
+     */
+    Call(Labolatory3::RysowanieProstokata);
+    // Call(Labolatory3::PotegaModuloN);
+    // Call(Labolatory3::SumaCyfrLiczby);
+    // Call(Labolatory3::ProblemUlama);
+    // Call(Labolatory3::MinimumMaksimum);
+    // Call(Labolatory3::TestowanieTrojkatow);
+    // Call(Labolatory3::FunkcjaSigma);
+    // Call(Labolatory3::OperacjeNaLiczbachWymiernych);
+    // Call(Labolatory3::OperacjeNaLiczbachZespolonych);
+    // Call(Labolatory3::DziesietneDoRzymskie);
+    // Call(Labolatory3::Kalkulator);
+    // Call(Labolatory3::Podzielnosc);
 
     return 0;
 }
