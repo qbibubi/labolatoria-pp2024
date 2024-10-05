@@ -43,11 +43,11 @@ int main()
     /*
      * Labolatory 3
      */
-    Call(Labolatory3::RysowanieProstokata);
+    // Call(Labolatory3::RysowanieProstokata);
     // Call(Labolatory3::PotegaModuloN);
     // Call(Labolatory3::SumaCyfrLiczby);
     // Call(Labolatory3::ProblemUlama);
-    // Call(Labolatory3::MinimumMaksimum);
+    Call(Labolatory3::MinimumMaksimum);
     // Call(Labolatory3::TestowanieTrojkatow);
     // Call(Labolatory3::FunkcjaSigma);
     // Call(Labolatory3::OperacjeNaLiczbachWymiernych);
