@@ -24,12 +24,27 @@
     <ClCompile Include="labolatories\labolatory_3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="labolatories_3b\labolatory_2_3b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="labolatories_3b\labolatory_3_3b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="labolatories_3b\labolatory4_3b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="labolatories\labolatory_2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="labolatories\labolatory_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="labolatories_3b\labolatory_2_3b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="labolatories_3b\labolatory_3_3b.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -135,13 +135,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="labolatories_3b\labolatory4_3b.cpp" />
+    <ClCompile Include="labolatories_3b\labolatory_2_3b.cpp" />
     <ClCompile Include="labolatories\labolatory_2.cpp" />
     <ClCompile Include="labolatories\labolatory_3.cpp" />
+    <ClCompile Include="labolatories_3b\labolatory_3_3b.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="labolatories_3b\labolatory_2_3b.h" />
     <ClInclude Include="labolatories\labolatory_2.h" />
     <ClInclude Include="labolatories\labolatory_3.h" />
+    <ClInclude Include="labolatories_3b\labolatory_3_3b.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />
